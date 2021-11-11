@@ -1,5 +1,5 @@
 {% set name = "Exporter" %}
-{% set version = "5.72" %}
+{% set version = "5.74" %}
 
 package:
   name: perl-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://cpan.metacpan.org/authors/id/T/TO/TODDR/{{ name }}-{{ version }}.tar.gz
-    sha256: cd13b7a0e91e8505a0ce4b25f40fab2c92bb28a99ef0d03da1001d95a32f0291
+    sha256: eadb889ef673ad940da6aa4f6f7d75fc1e625ae786ae3533fd313eaf629945b8
   - url: https://raw.githubusercontent.com/Perl/perl5/v5.32.1/Copying
     sha256: d77d235e41d54594865151f4751e835c5a82322b0e87ace266567c3391a4b912
   - url: https://raw.githubusercontent.com/Perl/perl5/v5.32.1/Artistic
